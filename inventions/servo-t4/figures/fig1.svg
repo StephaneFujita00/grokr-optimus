@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#fff"/>
+  <!-- Palm base -->
+  <rect x="200" y="280" width="120" height="80" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- Proximal phalanx -->
+  <rect x="320" y="260" width="90" height="40" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- Middle phalanx -->
+  <rect x="410" y="250" width="80" height="35" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- Distal phalanx -->
+  <rect x="490" y="245" width="70" height="30" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- Tendon lines -->
+  <line x1="240" y1="300" x2="320" y2="280" stroke="#111" stroke-width="1.5"/>
+  <line x1="410" y1="270" x2="490" y2="260" stroke="#111" stroke-width="1.5"/>
+  <!-- Tactile arrays on each segment -->
+  <rect x="330" y="265" width="70" height="30" fill="none" stroke="#111" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="420" y="255" width="60" height="25" fill="none" stroke="#111" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="500" y="250" width="50" height="20" fill="none" stroke="#111" stroke-width="1" stroke-dasharray="3,2"/>
+  <!-- Leader lines and numerals -->
+  <line x1="260" y1="320" x2="180" y2="380" stroke="#111" stroke-width="1"/>
+  <text x="130" y="385" font-family="Helvetica, Arial, sans-serif" font-size="14">palm (1)</text>
+  <line x1="365" y1="280" x2="300" y2="200" stroke="#111" stroke-width="1"/>
+  <text x="250" y="195" font-family="Helvetica, Arial, sans-serif" font-size="14">proximal (4)</text>
+  <line x1="450" y1="267" x2="520" y2="180" stroke="#111" stroke-width="1"/>
+  <text x="480" y="175" font-family="Helvetica, Arial, sans-serif" font-size="14">tactile array (9)</text>
+  <line x1="525" y1="260" x2="580" y2="320" stroke="#111" stroke-width="1"/>
+  <text x="560" y="335" font-family="Helvetica, Arial, sans-serif" font-size="14">distal (6)</text>
+  <text x="400" y="580" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle">FIG. 1</text>
+</svg>
