@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#fff"/>
+  <!-- Windshield outline -->
+  <path d="M150 120 Q400 80 650 120 L680 420 Q400 480 120 420 Z" fill="none" stroke="#111" stroke-width="3"/>
+  <!-- Coating layer -->
+  <path d="M170 140 Q400 105 630 140 L650 400 Q400 455 150 400 Z" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="8,4"/>
+  <!-- Inner glass ply -->
+  <path d="M180 155 Q400 120 620 155 L635 385 Q400 435 165 385 Z" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- Capacitive sensor electrode -->
+  <circle cx="400" cy="160" r="12" fill="none" stroke="#111" stroke-width="2"/>
+  <line x1="400" y1="172" x2="400" y2="210" stroke="#111" stroke-width="2"/>
+  <!-- Shielded cable -->
+  <path d="M400 210 Q420 260 380 310" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- Controller box -->
+  <rect x="320" y="300" width="120" height="70" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="380" y="340" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle">Controller (24)</text>
+  <!-- IMU -->
+  <rect x="500" y="280" width="60" height="40" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="530" y="305" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle">IMU (26)</text>
+  <line x1="440" y1="335" x2="500" y2="300" stroke="#111" stroke-width="1.5"/>
+  <!-- Transceiver -->
+  <rect x="200" y="300" width="80" height="50" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="240" y="330" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle">Transceiver (28)</text>
+  <line x1="380" y1="310" x2="280" y2="325" stroke="#111" stroke-width="1.5"/>
+  <!-- Leader lines and numerals -->
+  <line x1="412" y1="160" x2="480" y2="140" stroke="#111" stroke-width="1"/>
+  <text x="485" y="143" font-family="Helvetica, Arial, sans-serif" font-size="12">20</text>
+  <line x1="650" y1="260" x2="720" y2="240" stroke="#111" stroke-width="1"/>
+  <text x="725" y="243" font-family="Helvetica, Arial, sans-serif" font-size="12">18</text>
+  <line x1="120" y1="280" x2="80" y2="260" stroke="#111" stroke-width="1"/>
+  <text x="50" y="263" font-family="Helvetica, Arial, sans-serif" font-size="12">10</text>
+  <line x1="320" y1="335" x2="280" y2="360" stroke="#111" stroke-width="1"/>
+  <text x="240" y="363" font-family="Helvetica, Arial, sans-serif" font-size="12">24</text>
+  <line x1="500" y1="300" x2="460" y2="260" stroke="#111" stroke-width="1"/>
+  <text x="430" y="255" font-family="Helvetica, Arial, sans-serif" font-size="12">26</text>
+  <line x1="280" y1="325" x2="240" y2="290" stroke="#111" stroke-width="1"/>
+  <text x="210" y="285" font-family="Helvetica, Arial, sans-serif" font-size="12">28</text>
+  <!-- Caption -->
+  <text x="400" y="580" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle">FIG. 1</text>
+</svg>
