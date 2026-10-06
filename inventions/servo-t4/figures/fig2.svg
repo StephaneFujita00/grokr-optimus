@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#fff"/>
+  <!-- Palm -->
+  <ellipse cx="300" cy="320" rx="70" ry="55" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- Thumb -->
+  <path d="M240 280 Q200 240 210 200" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- Fingers curved around cylinder -->
+  <path d="M280 270 Q340 230 400 250" fill="none" stroke="#111" stroke-width="2"/>
+  <path d="M290 290 Q360 260 420 280" fill="none" stroke="#111" stroke-width="2"/>
+  <path d="M300 310 Q370 290 430 310" fill="none" stroke="#111" stroke-width="2"/>
+  <path d="M310 330 Q380 320 440 340" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- Object cylinder -->
+  <ellipse cx="480" cy="300" rx="35" ry="70" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- Force arrows -->
+  <line x1="445" y1="280" x2="465" y2="280" stroke="#111" stroke-width="1.5"/>
+  <polygon points="465,275 475,280 465,285" fill="#111"/>
+  <line x1="445" y1="300" x2="465" y2="300" stroke="#111" stroke-width="1.5"/>
+  <polygon points="465,295 475,300 465,305" fill="#111"/>
+  <line x1="445" y1="320" x2="465" y2="320" stroke="#111" stroke-width="1.5"/>
+  <polygon points="465,315 475,320 465,325" fill="#111"/>
+  <!-- Labels -->
+  <line x1="300" y1="375" x2="220" y2="450" stroke="#111" stroke-width="1"/>
+  <text x="160" y="455" font-family="Helvetica, Arial, sans-serif" font-size="14">palm (1)</text>
+  <line x1="480" y1="230" x2="540" y2="180" stroke="#111" stroke-width="1"/>
+  <text x="510" y="175" font-family="Helvetica, Arial, sans-serif" font-size="14">object</text>
+  <text x="400" y="580" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle">FIG. 2</text>
+</svg>
